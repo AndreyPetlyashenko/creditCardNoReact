@@ -1,0 +1,226 @@
+h1 {
+  text-align: center;
+  font-weight: 600;
+}
+.featureContainer * {
+  padding: 0;
+  margin: 0;
+}
+.featureContainer {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  .imgContainer {
+    margin: 10px;
+  }
+  //   border: 1px solid black;
+  .dataContainer {
+    padding: 0 15px;
+    a {
+      color: blue;
+      font-weight: 600;
+      padding-top: 10px;
+      display: block;
+      width: 100px;
+      height: 30px;
+    }
+  }
+  .evaluationContainer {
+    display: flex;
+    p {
+      padding: 20px 0;
+    }
+    .star-ratings {
+      width: 137px;
+      height: 30px;
+      padding-top: 5px;
+      padding: 10px 10px 0px 10px;
+    }
+    .starsContainer {
+      margin-top: 20px;
+      padding: 0 10px;
+    }
+    .starsContainer.two {
+      #star1,
+      #star2 {
+        color: yellow;
+      }
+    }
+    .starsContainer.three {
+      #star1,
+      #star2,
+      #star3 {
+        color: yellow;
+      }
+    }
+    .starsContainer.four {
+      #star1,
+      #star2,
+      #star3,
+      #star4 {
+        color: yellow;
+      }
+    }
+    .starsContainer.four {
+      #star1,
+      #star2,
+      #star3,
+      #star4 {
+        color: yellow;
+      }
+    }
+  }
+  .buttonContainer {
+    a {
+      display: block;
+      background-color: blue;
+      width: 195px;
+      height: 40px;
+      color: white;
+      font-weight: 600;
+      font-size: 20px;
+      border-radius: 5px;
+      margin: 10px 0;
+      margin-right: 10px;
+      padding-top: 12px;
+      text-align: center;
+      border: 1px solid transparent;
+    }
+    .detailsButton {
+      color: blue;
+      background-color: white;
+    }
+    a:hover {
+      border: 1px solid blue;
+    }
+  }
+}
+.linkContainer {
+  a {
+    display: block;
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+.botomContent {
+  display: flex;
+  padding: 10px;
+  .imgContainer {
+    padding-right: 30px;
+  }
+}
+
+footer {
+  h2,
+  h3,
+  h4,
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    li {
+      padding: 5px;
+    }
+  }
+
+  h2,
+  h3 {
+    padding: 10px 0;
+  }
+  display: flex;
+  background-color: #f8fafb;
+  justify-content: space-around;
+
+  .col1 {
+    max-width: 25%;
+    a:active {
+      color: black;
+    }
+    a:visited {
+      color: black;
+    }
+  }
+  .col4 {
+    a {
+      font-size: 30px;
+      padding: 5px;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .featureContainer {
+    .imgContainer {
+      text-align: center;
+    }
+  }
+  footer {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: nowrap;
+
+    div {
+      padding-left: 10px;
+    }
+    .col1 {
+      max-width: 100%;
+    }
+    .col4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .dataContainer {
+    h2 {
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  }
+  .evaluationContainer {
+    display: block !important ;
+    p {
+      padding: 5px 0 !important ;
+      margin: 0 !important;
+      text-align: center !important;
+    }
+    .starsContainer {
+      margin: 0 !important;
+      text-align: center !important;
+      padding: 5px 0 !important;
+    }
+  }
+}
+@media (max-width: 1025px) {
+  .features {
+    padding: 10px;
+  }
+  .featureContainer {
+    flex-direction: column;
+    margin-top: 30px;
+    .buttonContainer {
+      a {
+        margin: 10px auto;
+      }
+    }
+    .dataContainer {
+      a {
+        float: right;
+      }
+    }
+  }
+
+  .botomContent {
+    display: block;
+    .imgContainer {
+      text-align: center;
+    }
+  }
+}

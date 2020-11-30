@@ -1,0 +1,122 @@
+.content {
+  padding-top: 50px;
+}
+.content * {
+  margin: 0;
+}
+.titleContainer {
+  text-align: center;
+  h1 {
+    padding: 15px 0;
+    font-weight: 600;
+  }
+  p {
+    padding-bottom: 30px;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  a {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-shadow: 0px 1px 3px 0 #ddd;
+    transition: box-shadow 300ms;
+  }
+  a:hover {
+    box-shadow: 0px 5px 13px 0 #ddd;
+    span {
+      transform: translateX(30%);
+      transition: all 0.3s ease 0s;
+    }
+  }
+}
+
+.newspaperContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 0;
+
+  justify-content: space-between;
+  img {
+    padding: 10px 20px;
+  }
+}
+.likeShareContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 30%;
+  margin: 0 auto;
+  a {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #286b97;
+    color: white;
+    font-size: 18px;
+
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+  }
+  p {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 680px) {
+  .buttonsContainer {
+    justify-content: center;
+  }
+}
+@media (max-width: 1025px) {
+  .buttonsContainer {
+    justify-content: center;
+    a {
+      margin: 10px 15px;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .buttonsContainer {
+    a {
+      margin: 8px 10px;
+    }
+  }
+  .newspaperContainer {
+    flex-direction: column;
+  }
+  .likeShareContainer {
+    flex-direction: column;
+    a {
+      margin: 5px 0;
+    }
+  }
+}
+@media (max-width: 769px) {
+  .content {
+    padding-top: 45px;
+  }
+  .likeShareContainer {
+    flex-direction: column;
+    a {
+      margin: 5px 0;
+    }
+  }
+}
