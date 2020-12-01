@@ -115,16 +115,13 @@ h1 {
   .imgContainer {
     padding-right: 30px;
   }
-  #textContainerTitle {
-    margin-top: 0;
-  }
-
   .facebookContainer {
     padding-left: 10px;
-    width: 350px;
   }
 }
-
+#textContainerTitle {
+  margin-top: 0;
+}
 footer {
   .col {
     margin: 10px;
@@ -171,6 +168,9 @@ footer {
       font-size: 30px;
       padding: 5px;
     }
+  }
+  .logoContainer {
+    background-color: #f8fafb;
   }
 }
 
@@ -241,5 +241,9 @@ footer {
     .imgContainer {
       text-align: center;
     }
+  }
+
+  #textContainerTitle {
+    margin-top: 30px;
   }
 }
