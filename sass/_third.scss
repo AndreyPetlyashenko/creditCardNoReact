@@ -114,9 +114,10 @@ h1 {
   display: flex;
   padding: 10px;
   .imgContainer {
-    padding-right: 30px;
+    // padding-right: 30px;
   }
   .facebookContainer {
+    width: 350px;
     padding-left: 10px;
   }
 }
@@ -181,6 +182,10 @@ footer {
 }
 
 @media (max-width: 426px) {
+  .linkContainer a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .featureContainer {
     .imgContainer {
       text-align: center;
@@ -193,7 +198,7 @@ footer {
     flex-wrap: nowrap;
 
     div {
-      padding-left: 10px;
+      // padding-left: 10px;
     }
     .col1 {
       max-width: 100%;
@@ -243,9 +248,14 @@ footer {
   }
 
   .botomContent {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .imgContainer {
       text-align: center;
+    }
+    .textContainer {
+      padding: 15px;
     }
   }
 
