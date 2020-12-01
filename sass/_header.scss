@@ -11,6 +11,12 @@ a {
   text-decoration: none;
 }
 header {
+  font-family: MontSeratRegular, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   width: 100%;
   position: fixed;
   top: 0;
@@ -62,6 +68,7 @@ header > .logoContainer {
   a {
     padding: 22px;
     display: block;
+    padding-left: 6px;
   }
 }
 
