@@ -101,6 +101,11 @@
   }
 }
 @media (max-width: 425px) {
+  .titleContainer {
+    h1 {
+      padding-top: 0;
+    }
+  }
   .buttonsContainer {
     a {
       margin: 8px 10px;
@@ -118,7 +123,7 @@
 }
 @media (max-width: 769px) {
   .content {
-    padding-top: 45px;
+    padding-top: 10px;
   }
   .likeShareContainer {
     flex-direction: column;
