@@ -13,11 +13,19 @@
     <link href="./css/main.css" rel="stylesheet" />
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v9.0"
+      nonce="ORug72Zq"
+    ></script>
     <div class="App">
       <header>
         <nav class="headerMenu" id="headerMenu">
           <div class="logoContainer">
-            <a href="#">Tarjetos de credito.com.yu</a>
+            <a href="#">Tarjetas de Credito.com.uy</a>
           </div>
           <ul class="listItem">
             <li class="item">
@@ -558,11 +566,32 @@
         </div>
         <div class="botomContent">
           <div class="imgContainer">
-            <img src="./images/cardsImg/card1.jfif" alt="" />
-            <img src="./images/cardsImg/card2.jfif" alt="" />
+            <div class="facebookContainer">
+              <div
+                class="fb-page"
+                data-href="https://www.facebook.com/TarjetasDeCredito.com.uy/"
+                data-tabs="timeline"
+                data-width="330"
+                data-height="420"
+                data-small-header="false"
+                data-adapt-container-width="true"
+                data-hide-cover="false"
+                data-show-facepile="true"
+              >
+                <blockquote
+                  cite="https://www.facebook.com/TarjetasDeCredito.com.uy/"
+                  class="fb-xfbml-parse-ignore"
+                >
+                  <a href="https://www.facebook.com/TarjetasDeCredito.com.uy/"
+                    >Tarjetas de Crédito Uruguay</a
+                  >
+                </blockquote>
+              </div>
+            </div>
           </div>
+
           <div class="textContainer">
-            <h2>Somos TarjetasdeCredito.com.uy</h2>
+            <h2 id="textContainerTitle">Somos TarjetasdeCredito.com.uy</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Doloremque illo perspiciatis quia mollitia quam odit fugiat
@@ -581,12 +610,13 @@
           </div>
         </div>
       </div>
+
       <footer>
-        <div class="col1">
+        <div class="col col1">
           <div class="logoContainer" id="mobileLogo">
-            <a href="#">Tarjetos de credito.com.yu</a>
+            <a href="#">Tarjetas de credito.com.uy</a>
           </div>
-          <h2>Tarjetos de credito.com.yu</h2>
+          <h2>Tarjetas de credito.com.uy</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio fugiat
             error maiores ea, laboriosam, omnis necessitatibus a nesciunt autem
@@ -594,7 +624,7 @@
             vitae expedita!
           </p>
         </div>
-        <div class="col2">
+        <div class="col col2">
           <h3>La Empresa</h3>
           <ul>
             <li>Sobre nosotros</li>
@@ -603,7 +633,7 @@
             <li>Empleos</li>
           </ul>
         </div>
-        <div class="col3">
+        <div class="col col3">
           <h3>Contacto</h3>
           <ul>
             <li>Atencion al cliente</li>
@@ -611,7 +641,7 @@
             <li>Contactanos</li>
           </ul>
         </div>
-        <div class="col4">
+        <div class="col col4">
           <h4>Folow us</h4>
           <a href="#"><i class="fab fa-twitter-square"></i></a>
           <a href="#"><i class="fab fa-facebook-square"></i></a>

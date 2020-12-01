@@ -8,9 +8,11 @@ h1 {
 }
 .featureContainer {
   margin: 40px 0;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
   .imgContainer {
     margin: 10px;
   }
@@ -113,9 +115,21 @@ h1 {
   .imgContainer {
     padding-right: 30px;
   }
+  #textContainerTitle {
+    margin-top: 0;
+  }
+
+  .facebookContainer {
+    padding-left: 10px;
+    width: 350px;
+  }
 }
 
 footer {
+  .col {
+    margin: 10px;
+    margin-right: 50px;
+  }
   h2,
   h3,
   h4,
@@ -133,10 +147,15 @@ footer {
   h2,
   h3 {
     padding: 10px 0;
+    padding-top: 0;
   }
+  h4 {
+    padding-bottom: 12px;
+  }
+  padding: 10px;
   display: flex;
   background-color: #f8fafb;
-  justify-content: space-around;
+  justify-content: center;
 
   .col1 {
     max-width: 25%;

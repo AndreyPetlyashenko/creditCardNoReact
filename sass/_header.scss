@@ -20,13 +20,17 @@ header {
   align-items: center;
   box-shadow: 0 0.15rem 0.75rem 0 rgba(0, 0, 0, 0.15);
   background-color: white;
-  height: 50px;
-  a:active {
-    color: black;
+  height: 70px;
+  z-index: 10;
+  .listItem {
+    a:active {
+      color: black;
+    }
+    a:visited {
+      color: black;
+    }
   }
-  a:visited {
-    color: black;
-  }
+
   .subContainer {
     span {
       color: rgb(53, 191, 196);
@@ -41,10 +45,11 @@ header {
   max-width: 1200px;
 }
 .logoContainer {
-  z-index: 10;
   a {
     font-size: 20px;
     font-weight: 600;
+    color: blue;
+    word-spacing: -2px;
   }
 }
 header > .logoContainer {
@@ -62,8 +67,8 @@ header > .logoContainer {
   a {
     display: block;
     padding: 15px 20px 15px 20px;
-    span {
-      width: 20px;
+    i {
+      padding-left: 8px;
     }
   }
   a:hover {
@@ -125,7 +130,7 @@ header > .logoContainer {
 
 @media (max-width: 769px) {
   header {
-    //height: 50px;
+    height: 70px;
   }
   .subContainer {
     position: static;
