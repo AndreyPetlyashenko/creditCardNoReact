@@ -149,11 +149,10 @@ header > .logoContainer {
     width: 35px;
     height: 15px;
     position: relative;
-    // z-index: 1;
-    margin-right: 50px;
-    //&.true {
-    //  top: 24px;
-    //}
+    margin-right: -35px;
+    /* top: 0px; */
+    left: -75px;
+    z-index: 2;
   }
 
   .headerBurger:before,
