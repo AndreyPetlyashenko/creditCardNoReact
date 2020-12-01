@@ -8,10 +8,14 @@
   text-align: center;
   h1 {
     padding: 15px 0;
-    font-weight: 600;
+    padding-top: 35px;
+    font-weight: 1000;
+    font-size: 42px;
   }
   p {
     padding-bottom: 30px;
+    font-size: 21px;
+    color: #4d4d4d;
   }
 }
 
@@ -54,7 +58,6 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 30px 0;
-
   justify-content: space-between;
   img {
     padding: 10px 20px;
@@ -74,7 +77,6 @@
     background-color: #286b97;
     color: white;
     font-size: 18px;
-
     text-align: center;
     padding-top: 5px;
     margin-left: 10px;
