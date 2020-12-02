@@ -20,7 +20,7 @@ h1 {
   .dataContainer {
     padding: 0 15px;
     a {
-      color: blue;
+      color: #6969ce;
       font-weight: 600;
       padding-top: 10px;
       display: block;
@@ -77,7 +77,7 @@ h1 {
   .buttonContainer {
     a {
       display: block;
-      background-color: blue;
+      background-color: #36366b;
       width: 195px;
       height: 40px;
       color: white;
@@ -91,11 +91,11 @@ h1 {
       border: 1px solid transparent;
     }
     .detailsButton {
-      color: blue;
+      color: #36366b;
       background-color: white;
     }
     a:hover {
-      border: 1px solid blue;
+      border: 1px solid #36366b;
     }
   }
 }
@@ -103,22 +103,25 @@ h1 {
   a {
     display: block;
     text-decoration: none;
-    color: blue;
+    color: #1d1dda;
     font-size: 30px;
     text-align: center;
     padding-bottom: 30px;
+    padding-top: 20px;
   }
 }
 
 .botomContent {
   display: flex;
   padding: 10px;
+  padding-bottom: 45px;
   .imgContainer {
     // padding-right: 30px;
   }
   .facebookContainer {
-    width: 350px;
+    width: 320px;
     padding-left: 10px;
+    padding-right: 4px;
   }
 }
 #textContainerTitle {
@@ -133,6 +136,7 @@ footer {
   .col {
     margin: 10px;
     margin-right: 50px;
+    margin-top: 30px;
   }
   h2,
   h3,
