@@ -40,6 +40,8 @@ header {
   .subContainer {
     span {
       color: rgb(92, 92, 226);
+      font-size: 25px;
+      padding-right: 10px;
     }
   }
 }
@@ -79,13 +81,10 @@ header > .logoContainer {
   position: relative;
   a {
     display: block;
-    padding: 15px 20px 15px 20px;
+    padding: 25px 20px;
     i {
       padding-left: 8px;
     }
-  }
-  a:hover {
-    // text-decoration: underline;
   }
 }
 
@@ -108,12 +107,12 @@ header > .logoContainer {
         border: 1px solid transparent;
       }
       a:hover {
-        text-decoration: underline;
+        // text-decoration: underline;
         border: 1px solid black;
       }
     }
   }
-  top: 50px;
+  top: 71px;
   left: -130px;
   padding: 20px 0;
   border-right: 1px solid #ddd;
@@ -124,7 +123,7 @@ header > .logoContainer {
   display: none;
 }
 .subContainer.lastLink {
-  top: 50px;
+  top: 71px;
   left: 250px;
 }
 .item:hover {
@@ -297,6 +296,9 @@ header > .logoContainer {
   }
 }
 @media (max-width: 426px) {
+  .subContainer .subListContainer ul a {
+    padding: 15px 2px;
+  }
   .headerBurger {
     left: -48px;
   }
